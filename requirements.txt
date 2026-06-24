@@ -1,0 +1,30 @@
+# core dependencies
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+
+# vector & graph databases
+chromadb>=0.5.0
+neo4j>=5.20.0
+py2neo>=2021.2.3
+
+# embeddings & nlp
+sentence-transformers>=2.2.0
+huggingface-hub>=0.20.0
+
+# web framework
+streamlit>=1.35.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+requests>=2.31.0
+pymupdf>=1.23.0
+tiktoken>=0.6.0
+
+# data processing
+pandas>=2.0.0
+numpy>=1.24.0
