@@ -3,7 +3,11 @@ LangGraph工作流定义 - 构建多Agent协同流程
 """
 from typing import Dict, Any
 import logging
-from langgraph.graph import StateGraph, END
+from langgraph.graph import StateGraph
+try:
+    from langgraph.graph import END
+except ImportError:
+    from langgraph import END
 
 from .state import MedicalState
 from agents import (
